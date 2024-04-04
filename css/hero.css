@@ -1,0 +1,145 @@
+.hero {
+  background-image: url(../img/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-top: 26px;
+  padding-bottom: 130px;
+}
+
+.hero__logo {
+  margin-bottom: 57px;
+}
+
+.hero__title {
+  max-width: 542px;
+  font-family: 'Merriweather';
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.hero__title_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__title_2 {
+  display: flex;
+  justify-content: end;
+}
+
+.hero__text {
+  max-width: 542px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 23.4px;
+  margin-bottom: 38px;
+}
+
+.hero__flex {
+  display: flex;
+  gap: 16px;
+}
+
+.hero__flex__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 263px;
+  height: 72px;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20.8px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #1F1F1F;
+  border-radius: 66px;
+  transition: 0.2s;
+  padding: 0 49px;
+}
+
+.hero__flex__link_1:hover {
+  color: #1F1F1F;
+  background-color: #FBCE51;
+}
+
+.hero__flex__link_2 {
+  color: #1F1F1F;
+  background-color: transparent;
+  border: 2px solid #1F1F1F;
+  padding: 0 50px;
+}
+
+.hero__flex__link_2:hover {
+  color: #FFFFFF;
+  background-color: #1F1F1F;
+}
+
+@media (max-width: 1024px) {
+  .hero__flex__link_2 {
+    color: #1F1F1F;
+    background-color: #FFFFFF;
+    border: 0;
+  }
+
+  .hero__title {
+    max-width: 450px;
+    font-size: 50px;
+    line-height: 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__logo {
+    width: 213px;
+    height: 32px;
+    margin-bottom: 50px;
+  }
+
+  .hero__title {
+    max-width: 405px;
+    font-size: 45px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero__flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .hero__flex__link {
+    width: 335px;
+    height: 47px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    background-image: url(../img/hero-bg-mobile.png);
+    background-size: cover;
+    padding-top: 18px;
+    padding-bottom: 291px;
+  }
+
+  .hero__title {
+    max-width: 325px;
+    font-size: 36px;
+    line-height: 39.6px;
+  }
+
+  .hero__text {
+    margin-bottom: 32px;
+  }
+
+  .hero__flex__link_2 {
+    color: #1F1F1F;
+    background-color: #FFFFFF;
+    border: 0;
+  }
+}

@@ -1,0 +1,286 @@
+.poster {
+  padding-top: 80px;
+  margin-bottom: 167px;
+}
+
+.poster__flex-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.poster__title {
+  max-width: 764px;
+  font-family: Merriweather;
+  font-size: 36px;
+  line-height: 48.6px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.poster__title__1 {
+  padding-top: 28px;
+}
+
+.poster__title__link {
+  color: #F54932;
+  font-weight: 700;
+}
+
+.poster__flex-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 17px;
+}
+
+.poster__title__2 {
+  margin-bottom: 63px;
+}
+
+.poster__flex-2__img {
+  margin-top: -47px;
+  margin-left: -29px;
+}
+
+.poster__grid {
+  display: grid;
+  grid-template-columns: 306px 268px;
+  margin-bottom: 48px;
+}
+
+.poster__grid__item {
+  line-height: 120%;
+  opacity: 0.7;
+}
+
+.poster__grid__item:nth-child(2n) {
+  font-weight: 600;
+  opacity: 1;
+}
+
+.poster__grid-1 {
+  border-right: 1px solid #D0D0D0;
+  border-bottom: 1px solid #D0D0D0;
+  padding: 0 15px 15px 0;
+}
+
+.poster__grid-2 {
+  border-bottom: 1px solid #D0D0D0;
+  border-left: 1px solid #D0D0D0;
+  padding: 0 0 15px 15px;
+}
+
+.poster__grid-3 {
+  border: 1px solid #D0D0D0;
+  border-left: 0;
+  padding: 15px 15px 15px 0;
+}
+
+.poster__grid-4 {
+  border: 1px solid #D0D0D0;
+  border-right: 0;
+  ;
+  padding: 15px 0 15px 15px;
+}
+
+.poster__grid-5 {
+  border: 1px solid #D0D0D0;
+  border-left: 0;
+  padding: 15px 15px 15px 0;
+}
+
+.poster__grid-6 {
+  border: 1px solid #D0D0D0;
+  border-right: 0;
+  ;
+  padding: 15px 0 15px 15px;
+}
+
+.poster__grid-7 {
+  border: 1px solid #D0D0D0;
+  border-left: 0;
+  padding: 15px 15px 15px 0;
+}
+
+.poster__grid-8 {
+  border: 1px solid #D0D0D0;
+  border-right: 0;
+  ;
+  padding: 15px 0 15px 15px;
+}
+
+.poster__grid-9 {
+  border-top: 1px solid #D0D0D0;
+  border-right: 1px solid #D0D0D0;
+  padding: 15px 15px 0 0;
+}
+
+.poster__grid-10 {
+  border-top: 1px solid #D0D0D0;
+  border-left: 1px solid #D0D0D0;
+  padding: 15px 0 0 15px;
+}
+
+.poster__grid-10_span {
+  text-decoration: line-through #F54932;
+  padding-right: 7px;
+}
+
+.poster__flex-2__link {
+  color: #3057A2;
+}
+
+@media (max-width: 1300px) {
+  .poster__flex-2__img {
+    width: 390px;
+    height: 480px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .poster {
+    padding-top: 60px;
+    margin-bottom: 150px;
+  }
+
+  .poster__flex-1 {
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    padding-bottom: 170px;
+  }
+
+  .poster__title {
+    max-width: 100%;
+  }
+
+  .poster__title__1 {
+    padding-top: 0;
+  }
+
+  .poster__title__1_span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .poster__flex-2 {
+    flex-direction: column;
+  }
+
+  .poster__flex-2__img {
+    width: 530px;
+    height: 609px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .poster {
+    padding-top: 48px;
+    margin-bottom: 120px;
+  }
+
+  .poster__flex-1 {
+    gap: 24px;
+    padding-bottom: 180px;
+    margin-bottom: 34px;
+  }
+
+  .poster__title {
+    font-size: 28px;
+    line-height: 37.8px;
+  }
+
+  .poster__title__1_span {
+    max-width: 335px;
+  }
+
+  .poster__flex-2 {
+    gap: 19px;
+  }
+
+  .poster__flex-2__img {
+    margin: 0;
+  }
+}
+
+@media (max-width: 635px) {
+  .poster__grid {
+    grid-template-columns: 8fr;
+    margin-bottom: 40px;
+  }
+
+  .poster__grid-1 {
+    border: 0;
+    padding: 0 0 12px;
+  }
+
+  .poster__grid-2 {
+    border-left: 0;
+    padding: 0 0 15px;
+  }
+
+  .poster__grid-3 {
+    border: 0;
+    padding: 15px 0 12px;
+  }
+
+  .poster__grid-4 {
+    border: 0;
+    border-bottom: 1px solid #D0D0D0;
+    padding: 0 0 15px;
+  }
+
+  .poster__grid-5 {
+    border: 0;
+    border-top: 1px solid #D0D0D0;
+    padding: 15px 0 12px;
+  }
+
+  .poster__grid-6 {
+    border: 0;
+    border-bottom: 1px solid #D0D0D0;
+    padding: 0 0 15px;
+  }
+
+  .poster__grid-7 {
+    position: relative;
+    color: #888787;
+    border: 0;
+    border-top: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+    padding: 15px 0 12px;
+    opacity: 1;
+  }
+
+  .poster__grid-7::after {
+    content: '50 коп.';
+    position: absolute;
+    left: 152px;
+    top: calc(50% - 10px);
+    color: #000;
+    font-weight: 600;
+  }
+
+  .poster__grid-8 {
+    display: none;
+  }
+
+  .poster__grid-9 {
+    border: 0;
+    border-top: 1px solid #D0D0D0;
+    padding: 15px 0 12px;
+  }
+
+  .poster__grid-10 {
+    border: 0;
+    padding: 0;
+  }
+
+  .poster__flex-2__link {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+}
